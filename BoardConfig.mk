@@ -167,3 +167,4 @@ TW_FORCE_KEYMASTER_VER := true
 TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/prebuilt/modules)\")
 TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/prebuilt/modules/5.4-gki)\")
 TW_LOAD_VENDOR_BOOT_MODULES := true
+TW_DEVICE_VERSION := TND_impossible
