@@ -73,13 +73,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*.ko,$(LOCAL_PATH)/prebuilt/
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*.ko,$(LOCAL_PATH)/prebuilt/modules/5.4-gki,$(TARGET_COPY_OUT_RECOVERY)/root/vendor/lib/modules/5.4-gki)
 
 # A/B
+AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    boot \
-    dtbo \
-    product \
-    system \
-    system_ext \
-    vendor \
     vendor_boot \
-    vbmeta \
-    vbmeta_system
