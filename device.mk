@@ -17,6 +17,15 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
     fastbootd   
 
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl \
+    android.hardware.boot@1.2-impl.recovery \
+    android.hardware.boot@1.0-service
+
+PRODUCT_PACKAGES += \
+    bootctrl.holi \
+    bootctrl.holi.recovery
+
 # Recovery modules/dependencies
 TARGET_RECOVERY_DEVICE_MODULES += \
     android.hidl.allocator@1.0 \
